@@ -10,5 +10,6 @@ func _physics_process(delta):
 			get_node("CollisionShape2D").play_running_left_animation()
 		elif direction.x == 1: 
 			get_node("CollisionShape2D").play_running_right_animation()
-	else:
-		get_node("CollisionShape2D").play_idle_animation()
+	#else:
+	#	get_node("CollisionShape2D").play_idle_animation()
+	#need to add better idle animation
